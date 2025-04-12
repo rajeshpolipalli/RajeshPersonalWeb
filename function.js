@@ -449,7 +449,7 @@ function showPopUp(message) {
     case 9:
       {
         cardTitle.textContent = 'Unacceptable behaviour';
-        cardDescription.textContent = `Wait… did you just decline the Terms of Service? 🤨 You do realize that without agreement, you can’t access any of Tino’s amazing creations, right? Well, if that’s your final decision… I’m afraid I have no choice but to escort you out. 👋`;
+        cardDescription.textContent = `Wait… did you just decline the Terms of Service? 🤨 You do realize that without agreement, you can’t access any of  amazing creations, right? Well, if that’s your final decision… I’m afraid I have no choice but to escort you out. 👋`;
         cardImage.src = 'Images/Icons/error.svg';
         document
           .getElementById('cardClose')
@@ -467,7 +467,7 @@ function showPopUp(message) {
     case 11:
       {
         cardTitle.textContent = 'Portfolio Skills';
-        cardDescription.textContent = `These are Tino's core areas of expertise. Some of these primary skills also encompass secondary abilities, such as database development.`;
+        cardDescription.textContent = `These are core areas of expertise. Some of these primary skills also encompass secondary abilities, such as database development.`;
         cardImage.src = 'Images/Icons/star.svg';
       }
       break;
