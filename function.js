@@ -198,8 +198,8 @@ function followedGitHub() {
 }
 function downloadCV() {
   const link = document.createElement('a');
-  link.href = 'Documents/Rajesh1.pdf'; // correct file path
-  link.download = 'Rajesh1.pdf'; // desired file name
+  link.href = ''; // correct file path
+  link.download = ''; // desired file name
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
