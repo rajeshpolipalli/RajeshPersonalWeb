@@ -205,19 +205,19 @@ function downloadCV() {
   document.body.removeChild(link);
 }
 
-// function downloadCV() {
-//  downloadFile('Documents\Rajesh1.pdf', 'Rajesh1.pdf');
-//  document.getElementById('CVTask').checked = true;
-//  updateQuestStatus('CVTask', true);
-//}
-//function downloadFile(fileUrl, fileName) {
- // const link = document.createElement('a');
-//  link.href = fileUrl;
-////  link.download = fileName;
-//  document.body.appendChild(link);
- // link.click();
- // document.body.removeChild(link);
-//}
+function downloadCV() {
+ downloadFile('Updated_it_resume_with_cgpa (1).pdf', 'Updated_it_resume_with_cgpa (1).pdf');
+ document.getElementById('CVTask').checked = true;
+ updateQuestStatus('CVTask', true);
+}
+function downloadFile(fileUrl, fileName) {
+  const link = document.createElement('a');
+  link.href = fileUrl;
+ link.download = fileName;
+document.body.appendChild(link);
+ link.click();
+  document.body.removeChild(link);
+}
 function openGitHub() {
   navigateToSite('https://github.com/rajeshpolipalli');
 }
